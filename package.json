@@ -1,0 +1,19 @@
+{ 
+  "name": "vikstech-amazon-mqtt-broker-bridge", 
+  "version": "1.0.0", 
+  "description": "Bridge to connect Amazon and classic MQTT Broker", 
+  "main": "app.js", 
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ViksTech di Vittorio Domenico Padiglia",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "express": "^4.16.4",
+    "mqtt": "3.0.0"
+  }
+}
+
+
+
